@@ -1,0 +1,27 @@
+.collapse {
+  border-collapse: collapse;
+}
+
+.separate {
+  border-collapse: separate;
+}
+
+.table {
+  display: inline-table;
+  margin: 1em;
+  border: dashed 5px;
+}
+
+.table th,
+.table td {
+  border: solid 3px;
+}
+
+#row {
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+}
